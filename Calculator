@@ -1,0 +1,17 @@
+m = float(input("Enter first number: "))
+n = float(input("Enter second number: "))
+op = input("Enter operation: ")
+if op == '+':
+  result = m+n
+elif op == '-':
+  result = m-n
+elif op == '*':
+  result = m*n
+elif op == '/':
+    if n!=0:
+        result = m/n
+    else:
+        print("error")
+else:
+    result = "invalid operation"
+print(result)
